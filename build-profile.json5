@@ -1,12 +1,27 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/chenjinfa/.ohos/config/default_spacecraft-harmony_FjOmDUvSWiPxbnZoHzAVsTt6yMn-A3_KSJP5nNOA7VA=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BEB8B59CBBF9CAD4BDEEAF7CB8FBC95039A03315E749A47634B742865DA4B547AB25633A785BDF5",
+          "profile": "/Users/chenjinfa/.ohos/config/default_spacecraft-harmony_FjOmDUvSWiPxbnZoHzAVsTt6yMn-A3_KSJP5nNOA7VA=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/chenjinfa/.ohos/config/default_spacecraft-harmony_FjOmDUvSWiPxbnZoHzAVsTt6yMn-A3_KSJP5nNOA7VA=.p12",
+          "storePassword": "0000001BC9497196285E5FD817EB9B91E38B28F7FCA6484EB827F822C5EFFEE57EB8A747B87CE45ED83D4A"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
-        "compatibleSdkVersion": "5.0.0(12)",
         "runtimeOS": "HarmonyOS",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "6.0.2(22)"
       }
     ],
     "buildModeSet": [
